@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/frameimg"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/ic_launcher_background"/>
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        >
+        <TextView
+            android:id="@+id/alubmid1"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="templename:"
+            android:textStyle="bold"
+            android:textAlignment="textStart"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/templename"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="templename"
+            android:textStyle="normal"
+            android:textAlignment="textStart"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        >
+        <TextView
+            android:id="@+id/location1"
+
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="location:"
+            android:textStyle="bold"
+            android:textAlignment="textStart"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/location"
+
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="location"
+            android:textStyle="normal"
+            android:textAlignment="textStart"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        >
+        <TextView
+            android:id="@+id/state1"
+
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="state:"
+            android:textStyle="bold"
+            android:textAlignment="textStart"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/state"
+
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="state"
+            android:textStyle="normal"
+            android:textAlignment="textStart"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/director1"
+
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="0.5"
+            android:text="Director:"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/director"
+
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="0.5"
+            android:text="director"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        >
+        <TextView
+            android:id="@+id/chairman1"
+
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Chairman:"
+            android:textStyle="bold"
+            android:textAlignment="textStart"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/chairman"
+
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="chairman"
+            android:textStyle="normal"
+            android:textAlignment="textStart"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
